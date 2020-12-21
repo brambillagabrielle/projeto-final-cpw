@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="ferramenta.js"></script>
+    <title>Conversor Binário - Decimal</title>
+</head>
+
+<body>
+    <header>
+        <img src="header.png" alt = "Conversor Binário">
+    </header>
+    <ul>
+        <li class = "menu"><a href="index.html">Página Inicial</a></li>
+        <li class = "menu"><a href="manual.html">Como Usar</a></li>
+        <li class = "menu"><a href="ferramenta.html" id = "atual">Conversor</a></li>
+    </ul>
+    <div id="coluna-unica">
+        <h2>Conversor Binário - Decimal</h2>
+        <p>
+            Clique em qualquer quadrado para começar:<br>
+        </p>
+        <form onchange="binario();">
+            <fieldset class="estado"><label><input type="checkbox" id = "valor7"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor6"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor5"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor4"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor3"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor2"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor1"><i></i></label></fieldset>
+            <fieldset class="estado"><label><input type="checkbox" id = "valor0"><i></i></label></fieldset>
+        </form>
+        <pre id = "calc"><br><br></pre>
+    </div>
+    <footer>
+        <p>@Copyright Gabrielle Brambilla 2020<br>
+            Website desenvolvido na disciplina de CPW do curso de Ciência da Computação.</p>
+    </footer>
+</body>
+
+</html>
